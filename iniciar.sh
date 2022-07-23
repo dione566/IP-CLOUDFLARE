@@ -4,16 +4,14 @@ clear
 nums=$(seq 100 299 | tr -s '\n' '|')
 nums+=$(seq -s"|" 400 499)
 
-echo -e "\e[01;33mTESTE 01 \e[0mGOMESNET\n\n\e[02mEssa ferramenta irá fazer solicitações\npara um domínio específico\nutilizando um range de ip que você inserir\nutilize com Dados móveis sem créditos\n\nFormato proxy: 10.10. ou 10.10.10.\nEle irá fazer varias solicitações\nadicionando de 0 à 255 após o .\e[0m\n"; sleep 1
+echo -e "\e[01;33mTESTE 02 \e[0mGOMESNET\n\n\e[02mEssa ferramenta irá fazer solicitações\npara um domínio específico\nutilizando um range de ip que você inserir\nutilize com Dados móveis sem créditos\n\nFormato proxy: 10.10. ou 10.10.10.\nEle irá fazer varias solicitações\nadicionando de 0 à 255 após o .\e[0m\n"; sleep 1
 
 while :; do
 echo -e "\e[01;37mColoque o IP/Proxy que deseja utilizar\e[0m"
 read -p "IP/Proxy: " IP
-echo -e "\e[01;37mColoque o PORTA que deseja utilizar\e[0m"
-if [[ "$resp" = "80"
+echo -e "\e[01;37mColoque o PORTA que deseja utilizar\e[0m")" -e -i 80 resp
 read -p "IP/Proxy: " PORTA
-echo -e "\e[01;37mColoque o seu DOMÍNIO\e[0m"
-if [[ "$resp" = "salve.gomesnetbr.xyz"
+echo -e "\e[01;37mColoque o seu DOMÍNIO\e[0m")" -e -i salve.gomesnetbr.xyz resp
 read -p "Domínio: " DOMINIO
 
 dots=$(fgrep "." -o <<< $IP | wc -l)
