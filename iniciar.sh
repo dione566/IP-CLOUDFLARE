@@ -9,10 +9,12 @@ echo -e "\e[01;33mTESTE 02 \e[0mGOMESNET\n\n\e[02mEssa ferramenta irá fazer sol
 while :; do
 echo -e "\e[01;37mColoque o IP/Proxy que deseja utilizar\e[0m"
 read -p "IP/Proxy: " IP
-echo -e "\e[01;37mColoque o PORTA que deseja utilizar\e[0m")" -e -i 80 resp
-read -p "IP/Proxy: " PORTA
-echo -e "\e[01;37mColoque o seu DOMÍNIO\e[0m")" -e -i salve.gomesnetbr.xyz resp
-read -p "Domínio: " DOMINIO
+echo -e "\e[01;37mColoque o PORTA que deseja utilizar\e[0m"
+read -p "IP/Proxy: " 80
+read -p "80"
+echo -e "\e[01;37mColoque o seu DOMÍNIO\e[0m"
+read -p "Domínio: " salve.gomesnetbr.xyz
+read -p "salve.gomesnetbr.xyz"
 
 dots=$(fgrep "." -o <<< $IP | wc -l)
 > ips.txt; echo "@EhisOpeNer" > a; > b
