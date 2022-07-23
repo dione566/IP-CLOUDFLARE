@@ -9,9 +9,9 @@ echo -e "\e[01;33mPROCURAR PROXYS \e[0m☠\n\n\e[02mEssa ferramenta irá fazer s
 while :; do
 echo -ne "\033[1;32mQUAL IP/PROXY?\033[1;31m : "
 read -p "IP/Proxy: " IP
-echo -ne "\033[1;32mQUAL PORTA?\033[1;31m 80"
+echo -ne "\033[1;32mQUAL PORTA?\033[1;31m :80"
 read -p "IP/Proxy: " PORTA
-echo -ne "\033[1;32mQUAL DOMINIO?\033[1;31m salve.gomesnetbr.xyz"
+echo -ne "\033[1;32mQUAL DOMINIO?\033[1;31m :salve.gomesnetbr.xyz"
 read -p "Domínio: " DOMINIO
 
 dots=$(fgrep "." -o <<< $IP | wc -l)
