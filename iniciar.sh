@@ -7,7 +7,7 @@ nums+=$(seq -s"|" 400 499)
 echo -e "\e[01;33mPROCURAR PROXYS \e[0m☠\n\n\e[02mEssa ferramenta irá fazer solicitações\npara um domínio específico\nutilizando um range de ip que você inserir\nutilize com Dados móveis sem créditos\n\nFormato proxy: 10.10. ou 10.10.10.\nEle irá fazer varias solicitações\nadicionando de 0 à 255 após o .\e[0m\n"; sleep 1
 
 while :; do
-read -p "$(echo -e "\033[1;32mPROXY/IP\033[1;31m ?\033[1;37m : ")"
+echo -e "\e[01;37mColoque o IP/Proxy que deseja utilizar\e[0m"
 read -p "IP/Proxy: " IP
 read -p "$(echo -e "\033[1;32mPORTA\033[1;31m ?\033[1;37m : ")" -e -i 80 resp
 if [[ "$resp" = "80" ]]; then
