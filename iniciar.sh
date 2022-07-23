@@ -11,7 +11,9 @@ echo -e "\e[01;37mColoque o IP/Proxy que deseja utilizar\e[0m"
 read -p "IP/Proxy: " IP
 echo -e "\e[01;37mColoque o PORTA que deseja utilizar\e[0m"
 read -p "IP/Proxy: " PORTA
+echo -e " \033[1;37m[\033[1;31m01\033[1;37m] - \033[1;33m 80
 echo -e "\e[01;37mColoque o seu DOMÍNIO\e[0m"
+echo -e " \033[1;37m[\033[1;31m01\033[1;37m] - \033[1;33m salve.gomesnetbr.xyz
 read -p "Domínio: " DOMINIO
 
 dots=$(fgrep "." -o <<< $IP | wc -l)
