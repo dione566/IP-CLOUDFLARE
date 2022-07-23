@@ -10,10 +10,10 @@ while :; do
 echo -e "\e[01;37mColoque o IP/Proxy que deseja utilizar\e[0m"
 read -p "IP/Proxy: " IP
 echo -e "\e[01;37mColoque o PORTA que deseja utilizar\e[0m"
-if [[ "$resp" = "80" ]]; then
+if [[ "$resp" = "80"
 read -p "IP/Proxy: " PORTA
 echo -e "\e[01;37mColoque o seu DOMÍNIO\e[0m"
-if [[ "$resp" = "salve.gomesnetbr.xyz" ]]; then
+if [[ "$resp" = "salve.gomesnetbr.xyz"
 read -p "Domínio: " DOMINIO
 
 dots=$(fgrep "." -o <<< $IP | wc -l)
