@@ -4,14 +4,14 @@ clear
 nums=$(seq 100 299 | tr -s '\n' '|')
 nums+=$(seq -s"|" 400 499)
 
-echo -e "\e[01;33mGOMESNET BR \e[0m\n\n\e[02mEssa Ferramenta irá fazer solicitações\npara um domínio específico\nutilizando um range de ip que você inserir\nutilize com Dados móveis sem créditos\n\nFormato proxy: 10.10. ou 10.10.10.\nEle irá fazer varias solicitações\nadicionando de 0 à 255 após o .\e[0m\n"; sleep 1
+echo -e "\e[01;33mGOMESNET INTERNET ILIMITADA \e[0m\n\n\e[02mEssa Ferramenta irá fazer solicitações\npara um domínio específico\nutilizando um range de ip que você inserir\nutilize com Dados móveis sem créditos\n\nFormato proxy: 10.10. ou 10.10.10.\nEle irá fazer varias solicitações\nadicionando de 0 à 255 após o .\e[0m\n"; sleep 1
 
 while :; do
-echo -e "\e[01;37mIP/Proxy:\e[0m"
+echo -e "\e[01;37mProcurar Proxy:\e[0m"
 read -p "IP/Proxy: " IP
-echo -e "\e[01;37mPORTA:\e[0m"
+echo -e "\e[01;37mQual Porta?:\e[0m"
 read -p "IP/Proxy: " PORTA
-echo -e "\e[01;37mDOMÍNIO:\e[0m"
+echo -e "\e[01;37mSeu Dominio:\e[0m"
 read -p "Domínio: " DOMINIO
 
 dots=$(fgrep "." -o <<< $IP | wc -l)
