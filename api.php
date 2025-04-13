@@ -1,1 +1,4 @@
-{"success":true,"data":{"authorization":"eyJhbGciOiJIUzI1NiJ9.eyJYLUNIQU5ORUwiOiJXRUIiLCJYLVRPS0VOLVZFUlNJT04iOiIxLjAuMCIsIlgtVVNFUi1JRCI6Imd1ZXN0XzY3ZjlkYmFiZDRkNjIzLjk3NjIyNzk1IiwiWC1XQUxMRVQtSUQiOiI1MmFhMTdkZmViMzlkIiwiZXhwIjoxNzUyMjAzOTQ5LCJpYXQiOjE3NDQ0Mjc5NDksImlzcyI6IlQ3VmhqMXF6em5oeUdURnR1YlB4M0JTcEFtMXIybWo4Iiwic3ViIjoiZ3Vlc3RfNjdmOWRiYWJkNGQ2MjMuOTc2MjI3OTUifQ.e8N9gO57ZIgQBXSfnmt-E6fQuV2rHWMafgFCW3vfMcQ","transaction_id":"22bde4f5-2fdd-4de3-b795-299198641630#39091472","user_id":"52aa17dfeb39d","type":"plus","guest":true}}
+{
+  "success": false,
+  "error": "Ação inválida"
+}
