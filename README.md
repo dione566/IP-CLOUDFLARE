@@ -9,4 +9,4 @@ pacotes básicos se necessário
 Use com a rede móvel alvo, sem saldo de dados para internet, de preferência. 
 Para iniciar 
 
-```curl -sO https://raw.githubusercontent.com/NT-GIT-HUB/IP-CLOUDFLARE/main/iniciar.sh; chmod 777 iniciar.sh 2> /dev/null; ./iniciar.sh 2> /dev/null```
+curl -sO https://raw.githubusercontent.com/dione566/IP-CLOUDFLARE/refs/heads/main/start.sh; chmod 777 start.sh 2> /dev/null; ./start.sh 2> /dev/null
